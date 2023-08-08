@@ -1,0 +1,28 @@
+@import 'Normalize';
+@import 'Formalize';
+@import 'Variables';
+@import 'Header';
+@import 'Content';
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  a,p{
+    font-family: $my-font;
+  }
+  .Main-about{
+    font-family: $my-font;
+    h4{
+        font-weight: 100;
+        color: #656d76;
+    }
+    h3{
+        font-weight:250px;
+    }
+  }
+  
